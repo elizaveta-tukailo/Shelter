@@ -2,7 +2,7 @@
 # Результаты работы 
 
 Ссылка на разработанный сайт:
-[shelter-for-pets-in-grodno.netlify.app](shelter-for-pets-in-grodno.netlify.app)
+[https://shelter-for-pets-in-grodno-lizza.netlify.app/](https://shelter-for-pets-in-grodno-lizza.netlify.app/)
 
 Ссылка на результат прохождения в HTMLAcademy:
 [https://htmlacademy.ru/profile/id819109/achievements](https://htmlacademy.ru/profile/id819109/achievements)
