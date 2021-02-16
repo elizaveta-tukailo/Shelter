@@ -1,0 +1,247 @@
+<!DOCTYPE html>
+<html lang="ru">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Наши подопечные</title>
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/normalize.css">
+    <link rel="stylesheet" href="css/all-pets.css">
+</head>
+
+<body>
+    <header class="header">
+        <div class="container">
+            <div class="header__top">
+                <div class="header__back">
+                    <a class="header__link" href="index.html">
+                        <div class="header__back-img-wrapper">
+                            <img class="header__back-img" src="/images/icons/arrow-back.svg" alt="Вернуться назад">
+                        </div>
+                        <p class="header__back-text">Вернуться назад</p>
+                    </a>
+                </div>
+                <h3 class="header__top-title">Наши подопечные</h3>
+                <div class="header__top-sort">
+                    <button class="header__top-show">Показать</button>
+                    <div class="select">
+                        <input class="select__input" name="" type="hidden">
+                        <div class="select__head">Коты и собаки</div>
+                        <ul class="select__list" style="display: none;">
+                            <li class="select__item select__animal" data-animal="all">Коты и собаки</li>
+                            <li class="select__item select__animal" data-animal="cat">Только коты</li>
+                            <li class="select__item select__animal" data-animal="dog">Только собаки</li>
+                        </ul>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+    <section class="pets">
+        <div class="container">
+            <div class="pets__items">
+                <div class="pets__wrap" data-animal="dog">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Monic.png" alt="Собака Моник">
+                            <h4 class="pets__item-name">Моник</h4>
+                            <p class="pets__item-info">Мальчик, 7 месяцев</p>
+                            <p class="pets__item-description">К поводку приучен. Не агрессивный. В еде не
+                                привередничает. С
+                                другими животными не конфликтует. Привит.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="cat">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Lunatic.png" alt="Кот Лунатик">
+                            <h4 class="pets__item-name">Лунатик</h4>
+                            <p class="pets__item-info">Мальчик, 7 месяцев</p>
+                            <p class="pets__item-description">Малыш хочет домой и часто плачет.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="dog">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Gerda.png" alt="Собака Герда">
+                            <h4 class="pets__item-name">Герда</h4>
+                            <p class="pets__item-info">Мальчик, 7 месяцев</p>
+                            <p class="pets__item-description">Веселый и очень игривый, ему так нужны ваша любовь и
+                                ласка.У него потрясающая густая шерсть в полосочку.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="cat">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Saki.png" alt="Кот Саки">
+                            <h4 class="pets__item-name">Саки</h4>
+                            <p class="pets__item-info">Мальчик, 7 месяцев</p>
+                            <p class="pets__item-description">Серьезный кот в серьезные руки. Будет преданным только
+                                одному хозяину.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="dog">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Monic2.png" alt="Собака Моник">
+                            <h4 class="pets__item-name">Моник</h4>
+                            <p class="pets__item-info">Мальчик, 7 месяцев</p>
+                            <p class="pets__item-description">К поводку приучен. Не агрессивный. В еде не
+                                привередничает. С
+                                другими животными не конфликтует. Привит.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="dog">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Andreantino.png" alt="Собака Андреантино">
+                            <h4 class="pets__item-name">Андреантино</h4>
+                            <p class="pets__item-info">Мальчик, 7 месяцев</p>
+                            <p class="pets__item-description">Супер дружелюбный пес. Спешите, таких больше не
+                                найдете.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="dog">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Pupsik.png" alt="Собака Пупсик">
+                            <h4 class="pets__item-name">Пупсик</h4>
+                            <p class="pets__item-info">Мальчик, 3 месяца</p>
+                            <p class="pets__item-description">Милый песик. Очень игривый. Черная шубка светится на
+                                солнце и переливается синим.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="dog">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Mishka.png" alt="Собака Мишка">
+                            <h4 class="pets__item-name">Мишка</h4>
+                            <p class="pets__item-info">Мальчик, 2 месяца</p>
+                            <p class="pets__item-description">Малыш хочет домой и часто плачет.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="cat">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Krasavchik.png" alt="Кот Красавчик">
+                            <h4 class="pets__item-name">Красавчик</h4>
+                            <p class="pets__item-info">Мальчик, 7 месяцев</p>
+                            <p class="pets__item-description">Мудрый кот. Аккуратный и нежный. Не царапает вещи и
+                                мебель. Кушает все!</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="dog">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Bobik.png" alt="Собака Бобик">
+                            <h4 class="pets__item-name">Бобик</h4>
+                            <p class="pets__item-info">Девочка, 2 года</p>
+                            <p class="pets__item-description">Девочка-красотка будет надежным защитником и другом
+                                хорошему человеку.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="pets__wrap" data-animal="dog">
+                    <div class="pets__item">
+                        <div class="pets__container">
+                            <img class="pets__item-img" src="/images/pets/Milaha.png" alt="Собака Красавчик">
+                            <h4 class="pets__item-name">Милаха</h4>
+                            <p class="pets__item-info">Мальчик, 7 месяцев</p>
+                            <p class="pets__item-description">Мальчиш-крепыш. Здоров, привит и кастрирован.</p>
+                            <button class="pets__item-link underline-link">Подробнее</button>
+                            <div class="pets__buttons-take">
+                                <button class="pets__take-home-btn default-btn primary-btn">Забрать домой</button>
+                                <button class="pets__take-overexposure-btn default-btn secondary-btn">Забрать на передержку</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <footer class="footer">
+        <div class="container">
+            <div class="footer__inner">
+                <div class="footer-menu">
+                    <div class="footer-menu__links">
+                        <a class="footer-menu__link" href="index.html#give-home">Дом или передержка</a>
+                        <a class="footer-menu__link" href="index.html#give-money">Финансовая поддержка</a>
+                        <a class="footer-menu__link" href="index.html#bring">Корма, лекарства и другие вещи</a>
+                        <a class="footer-menu__link" href="index.html#car-help">Автопомощь</a>
+                        <a class="footer-menu__link" href="index.html#volunteer">Волонтерство</a>
+                    </div>
+                    <div class="footer-menu__links">
+                        <a class="footer-menu__link" href="index.html#about-us">О нас</a>
+                        <a class="footer-menu__link" href="index.html#contacts">Контакты</a>
+                    </div>
+                </div>
+                <p class="footer__copyright">© 2020 БООЗЖ "СПАСИ ЖИЗНЬ"</p>
+            </div>
+        </div>
+    </footer>
+    <script src="https://code.jquery.com/jquery-3.4.1.min.js"></script>
+    <script src="js/index.js"></script>
+</body>
+
+</html>
