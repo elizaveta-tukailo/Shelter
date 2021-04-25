@@ -1,4 +1,4 @@
-# TODO App
+# Сайт To Do App
 
-Ссылка на проект:
+Ссылка на сайт в Netlify:
 [https://lizzza-to-do.netlify.app/](https://lizzza-to-do.netlify.app/)
