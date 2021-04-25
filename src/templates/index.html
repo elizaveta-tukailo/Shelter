@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>To Do App</title>
+    <link rel="shortcut icon" type="image/ico" href="images/content/favicon.ico">
+</head>
+
+<body>
+    <div class="wrapper">
+        <div class="content__wrapper">
+            <section class="header">
+                <div class="container">
+                    <div class="header__inner">
+                        <div class="header__logo"><img src="images/content/logo.svg" alt="Логотип SENLA"></div>
+                        <div class="header__search">
+                            <img src="images/content/search.svg" alt="Поиск задачи">
+                            <input class="header__input" type="text" placeholder="Search task for to do">
+                        </div>
+                    </div>
+                </div>
+            </section>
+            <section class="main">
+                <div class="tasks">
+
+                     <img class="tasks__images" src="images/content/taking_notes.png" alt="Фоновое изображение">
+                    <div class="container">
+                        <div class="tasks__inner">
+                            <div class="tasks__tabs">
+                                <button class="tasks__tab active" onclick="">All</button>
+                                <button class="tasks__tab" onclick="">Active</button>
+                                <button class="tasks__tab" onclick="">Done</button>
+                            </div>
+                            <div class="tasks__form-wrap">
+                                <p class="tasks__text">New task</p>
+                                <form class="tasks__form">
+                                    <textarea name="tasks_input" class="tasks__input" id="" type="submit"></textarea>
+                                    <button class="tasks__btn">Add</button>
+                                </form>
+                            </div>
+                            <div class="tasks__container">
+                                <ul class="tasks__list">
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </div>
+</body>
+
+</html>

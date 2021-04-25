@@ -1,0 +1,71 @@
+/**
+ * Fonts
+*/
+
+// @font-face {
+//     font-family: "NimbusSansNovusDOT-SemBol";
+//     font-weight: 600;
+//     font-display: swap;
+//     src: url("../fonts/fonts/NimbusSansNovusDOT-SemBol.eot"); /* IE9*/
+//     src: url("../fonts/fonts/NimbusSansNovusDOT-SemBol.eot?#iefix") format("embedded-opentype"), /* IE6-IE8 */
+//     url("../fonts/NimbusSansNovusDOT-SemBol.woff2") format("woff2"), /* chrome、firefox */
+//     url("../fonts/NimbusSansNovusDOT-SemBol.woff") format("woff"), /* chrome、firefox */
+//     url("../fonts/NimbusSansNovusDOT-SemBol.ttf") format("truetype"), /* chrome、firefox、opera、Safari, Android, iOS 4.2+*/
+//     url("../fonts/NimbusSansNovusDOT-SemBol.svg#NimbusSansNovusDOT-SemBol") format("svg"); /* iOS 4.1- */
+// }
+
+
+@font-face {font-family: "Salesforce Sans";
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/SalesforceSans.eot"); 
+    src: url("../fonts/SalesforceSans.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/../fonts/SalesforceSans.woff2") format("woff2"),
+    url("../fonts/../fonts/SalesforceSans.woff") format("woff"),
+    url("../fonts/../fonts/SalesforceSans.ttf") format("truetype"), 
+    url("../fonts/../fonts/SalesforceSans.svg#Salesforce Sans") format("svg"); 
+}
+
+@font-face {font-family: "Roboto Regular";
+    font-weight: 400;
+    font-display: swap;
+    src: url("../fonts/../fonts/RobotoRegular.eot");
+    src: url("../fonts/../fonts/RobotoRegular.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/../fonts/RobotoRegular.woff2") format("woff2"), 
+    url("../fonts/../fonts/RobotoRegular.woff") format("woff"),
+    url("../fonts/../fonts/RobotoRegular.ttf") format("truetype"), 
+    url("../fonts/../fonts/RobotoRegular.svg#Roboto Regular") format("svg"); 
+}
+@font-face {font-family: "Roboto Medium";
+    font-weight: 500;
+    font-display: swap;
+    src: url("../fonts/../fonts/RobotoMedium.eot"); 
+    src: url("../fonts/../fonts/RobotoMedium.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/../fonts/RobotoMedium.woff2") format("woff2"), 
+    url("../fonts/../fonts/RobotoMedium.woff") format("woff"),
+    url("../fonts/../fonts/RobotoMedium.ttf") format("truetype"), 
+    url("../fonts/../fonts/RobotoMedium.svg#Roboto Medium") format("svg"); 
+}
+@font-face {font-family: "Roboto Bold";
+    font-weight: 700;
+    font-display: swap;
+    src: url("../fonts/../fonts/RobotoBold.eot"); 
+    src: url("../fonts/../fonts/RobotoBold.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/../fonts/RobotoBold.woff2") format("woff2"), 
+    url("../fonts/../fonts/RobotoBold.woff") format("woff"), 
+    url("../fonts/../fonts/RobotoBold.ttf") format("truetype"), 
+    url("../fonts/../fonts/RobotoBold.svg#Roboto Bold") format("svg"); 
+}
+@font-face {font-family: "Roboto Black";
+    font-display: swap;
+    src: url("../fonts/RobotoBlack.eot");
+    src: url("../fonts/RobotoBlack.eot?#iefix") format("embedded-opentype"), 
+    url("../fonts/../fonts/RobotoBlack.woff2") format("woff2"), 
+    url("../fonts/../fonts/RobotoBlack.woff") format("woff"), 
+    url("../fonts/../fonts/RobotoBlack.ttf") format("truetype"),
+    url("../fonts/../fonts/RobotoBlack.svg#Roboto Black") format("svg");
+}
+
+
+
+//font-family: 'NimbusSansNovusDOT-SemBol';
