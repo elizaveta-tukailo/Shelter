@@ -1,0 +1,87 @@
+
+/* CSS Reset */
+@import "base/reset";
+
+
+/* Fonts */
+@import "base/fonts";
+
+
+html {
+    box-sizing: border-box;
+}
+*{
+    padding: 0;
+    margin: 0;
+}
+*,
+*::after,
+*::before {
+    box-sizing: inherit;
+}
+html{
+    font-size: 62.5%;
+}
+body {
+    font-family: "Roboto Regular", serif;
+    font-size: 16px;
+    background: #fff;
+}
+html, body{
+    overflow-x: hidden;
+}
+.wrapper{
+    margin-bottom: 67px;
+}
+.content__wrapper {
+    height: 100%;
+    min-height: 100vh;
+    margin: 0 auto;
+    max-width: 1360px;
+    .container{
+        max-width: 765px;
+    }
+}
+@media (min-width: 320px){
+    .content__wrapper{
+        .container{
+            padding: 0 15px;
+            max-width: 100%;
+        }
+    } 
+   
+}
+@media (min-width: 767px){
+    .content__wrapper{
+        .container{
+            padding: 0 20px;
+        }
+    } 
+}
+@media (min-width: 1023px){
+    .content__wrapper{
+        .container{
+            padding: 0 20px;
+        }
+    } 
+}
+@media (min-width: 1440px){
+    .content__wrapper {
+        max-width: 1360px;
+        .container{
+            max-width: 765px;
+        }
+    }
+}
+img.tasks__images {
+    position: absolute;
+    z-index:-1;
+    bottom: 0;
+    right: 0;
+    max-height: 735px;
+    max-width: 903px;
+    height: 71%;
+}
+
+@import "components/header";
+@import "components/tasks";
